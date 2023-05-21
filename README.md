@@ -18,7 +18,7 @@ An Unofficial Graduate Report Template in LaTeX for [Huazhong University of Scie
 
 提示：
 
-* hustreport无法在texlive 2023下正常编译，你需要使用texlive 2022以前的版本。`autoref`功能不能正常引用。由于上游仓库已经归档，我无法继续往上游提交issue反馈。
+* hustreport无法在texlive 2023下正常编译，你需要使用[texlive 2022](https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2022/)以前的版本。`autoref`功能不能正常引用。由于上游仓库已经归档，我无法继续往上游提交issue反馈。
 * 你可以尝试使用[TexPage](https://www.texpage.com/)来撰写报告。
 
 ## Requirement

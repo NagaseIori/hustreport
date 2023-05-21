@@ -2039,16 +2039,6 @@
     {\HUST@zhtitlepage}
     {\HUST@entitlepage}
   \end{titlepage}
-  \ifthenelse{\equal{\HUST@language}{chinese}}
-  {
-    \def\thepage{注意事项}
-    \thispagestyle{empty}
-    \HUST@zhnotepage
-  }{
-    \def\thepage{Note}
-    \thispagestyle{empty}
-    \HUST@ennotepage
-  }
   \clearpage
   \let\thepage\HUST@oldthepage
   \setcounter{page}{1}

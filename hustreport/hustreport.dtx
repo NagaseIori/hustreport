@@ -1503,7 +1503,7 @@
 }{}
 
 \ifthenelse{\equal{\HUST@language}{chinese}}{
-  \hypersetup{pdfsubject={研究生{\HUST@categoryname}报告}}
+  \hypersetup{pdfsubject={{\HUST@categoryname}}}
 }{
   \ifthenelse{\equal{\HUST@categoryname}{}}{
     \hypersetup{pdfsubject={Postgraduate~Report}}
@@ -1868,9 +1868,9 @@
     \fontsize{22pt}{33.0pt}\selectfont
     \HEI
     \ifthenelse{\equal{\HUST@categoryname}{}}{
-      \ziju{8pt}{研究生（ ~\hspace{6em}~）报告}
+      \ziju{8pt}{...\hspace{6em}...}
     }{
-      \ziju{8pt}{研究生（ \HUST@categoryname）报告}
+      \ziju{8pt}{\HUST@categoryname}
     }
   }
   \vskip 0.8cm
@@ -1901,7 +1901,7 @@
   \parbox[t][][t]{\textwidth}{
     \centering
     \fontsize{16pt}{24.0pt}\selectfont
-    {华中科技大学研究生院制}
+    {华中科技大学制}
   }
   \end{center}
 }

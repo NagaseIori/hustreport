@@ -2312,14 +2312,6 @@
   \vskip 6ex
 }
 \AtEndDocument{
-  \clearpage
-  \let\HUST@oldthepage\thepage
-  \ifthenelse{\equal{\HUST@language}{chinese}}
-  {\def\thepage{封底}}
-  {\def\thepage{Back cover}}
-  \thispagestyle{empty}
-  \HUST@backcoverpage
-  \let\thepage\HUST@oldthepage
 }
 %    \end{macrocode}
 %
